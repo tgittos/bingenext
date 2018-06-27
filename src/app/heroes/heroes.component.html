@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3"></div>
+            <h2>Recommendations</h2>
+            <ul>
+              <li class="btn btn-info" *ngFor="let hero of heroes" (click)="onSelect(hero)">
+                <span class="badge">{{hero.Type}}</span> {{hero.Name}}
+              </li>
+            </ul>
+            
+        <app-hero-detail [hero]="selectedHero"></app-hero-detail>
+        
+        
+
+         
+  </div>
+ </div>

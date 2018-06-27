@@ -1,0 +1,58 @@
+
+
+h2 {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+p {
+    padding: 10px;
+    background: #e9e7da;
+    color: #636b46;
+    width: 100%;
+}
+
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.heroes li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #636b46;
+  margin: .5em;
+  padding: 1em 0;
+  border-radius: 4px;
+  display: inline-block;
+  color: #e9e7da;
+}
+
+.badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+ul {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}

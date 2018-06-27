@@ -1,0 +1,38 @@
+.container-fluid {
+    background-color: #cda345;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 500px
+}
+
+.title {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size: 100%;
+    color: #e9e7da;
+}
+
+.letsfind {
+    margin-bottom: 40px
+}
+
+input:focus {
+    outline:none;
+}
+
+.into {
+    font-size: 40px;
+    background-color: #cda345;
+    text-align: center;
+    border: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: #636b46;
+}
+
+.select {
+    font-weight: bold;
+}
